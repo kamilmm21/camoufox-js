@@ -185,7 +185,7 @@ export class CamoufoxFetcher extends GitHubDownloader {
 	_url?: string;
 
 	constructor() {
-		super("coryking/camoufox");
+		super("kamilmm21/camoufox");
 		this.arch = CamoufoxFetcher.getPlatformArch();
 		this.pattern = new RegExp(
 			`camoufox-(.+)-(.+)-${OS_NAME}\\.${this.arch}\\.zip`,
